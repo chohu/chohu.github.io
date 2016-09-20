@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>講習2</title>
+  <style type="text/css">
+    h1 {
+        color: red;
+    }
+
+    li.css {
+        color: blue;
+    }
+  </style>
+</head>
+<body>
+   
+  <ul>
+    <li>HTML</li>
+    <li class="css">CSS</li>
+    <li>JavaScript</li>
+  </ul>
+　<form>
+    <p>
+      password:<input type="text" name="name" size="40">
+    </p>
+  <font color="blue">blue </font>
+<marquee>デフォルト</marquee>
+<marquee width="90%">最後のヴァンパイア設定は何処へ</marquee>
+<marquee behavior="scroll">冥府エルフ滅亡</marquee>
+<marquee behavior="alternate">リンゴンリンゴーン</marquee>
+<marquee behavior="slide">端で停止する</marquee>
+<marquee direction="left">右から左へ（デフォルト）</marquee>
+<marquee direction="right">左から右へ</marquee>
+<marquee scrolldelay="100">2ターン王降臨</marquee>
+<marquee scrollamount="8">超越は害悪</marquee>
+  <script>
+    document.write("<h1>講習2</h1>");
+    document.write("Hello Warld<br>");
+    var a="10";
+    var b="5";
+    document.write(a + b+"<br>");
+    var cnt=1;
+    function call(){
+      alert(cnt+"回目");
+    }
+  </script>
+    <button type="button" onclick=cnt++>押せ！</button>
+    <button type="button" onclick="call()">今何回？</button>
+</body>
+</html>
